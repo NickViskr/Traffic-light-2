@@ -24,7 +24,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="START"/>
                                 <connections>
-                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O8U-l4-Hp7"/>
+                                    <action selector="switchButtonTap" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoK-le-Txi"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="CQ7-ca-9wg">
@@ -60,10 +60,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenLight" destination="BmW-J0-py4" id="Ukf-JP-90p"/>
-                        <outlet property="redLight" destination="BDV-iK-6rA" id="hNM-7N-Qjy"/>
-                        <outlet property="switchButton" destination="yV7-Tm-10C" id="7uc-sD-Ccn"/>
-                        <outlet property="yellowLight" destination="EGW-uz-AkL" id="DyA-lO-hNr"/>
+                        <outlet property="greenLight" destination="BmW-J0-py4" id="x2Q-nI-KwH"/>
+                        <outlet property="redLight" destination="BDV-iK-6rA" id="Kdj-RC-u21"/>
+                        <outlet property="switchButton" destination="yV7-Tm-10C" id="9L4-a3-wfl"/>
+                        <outlet property="yellowLight" destination="EGW-uz-AkL" id="0An-GP-RrZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
