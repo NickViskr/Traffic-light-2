@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     private let lightIsOff: CGFloat = 0.2
     private let lightIsOn: CGFloat = 1
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         switchButton.layer.cornerRadius = 15
